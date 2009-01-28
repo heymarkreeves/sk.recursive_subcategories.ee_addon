@@ -1,6 +1,6 @@
 <?php
 
-// Copyright(c) 2005 Maurice Fäh
+// Copyright(c) 2005 Maurice FÃ¤h
 
 /**
  * For more information read the introduction towards the end of this file.
@@ -224,7 +224,7 @@ class recursive_subcategories {
 				$tagdata_top = '<ul><li>' . $tagdata_top;
 		}
 
-		$query = $DB->query("Select cat_id, cat_name from exp_categories where parent_id = $parent_id" . $this->sort_by . $this->sort_direction);
+		$query = $DB->query("Select cat_id, cat_name, cat_url_title, cat_description from exp_categories where parent_id = $parent_id" . $this->sort_by . $this->sort_direction);
 		
 		if ($query->num_rows > 0)
 		{
