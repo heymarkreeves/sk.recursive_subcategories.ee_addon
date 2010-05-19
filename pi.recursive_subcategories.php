@@ -1,7 +1,4 @@
 <?php
-
-// Copyright(c) 2005 Maurice Fäh
-
 /**
  * For more information read the introduction towards the end of this file.
  **/
@@ -23,10 +20,10 @@
 
 $plugin_info = array(
 						'pi_name'			=> 'Recursive Subcategories',
-						'pi_version'		=> 'Beta 1.1',
+						'pi_version'		=> 'Beta 1.2',
 						'pi_author'			=> 'Mark J. Reeves - Slim Kiwi',
-						'pi_author_url'		=> 'http://www.slimkiwi.com/',
-						'pi_description'	=> 'Show a recursive list of subcategories for a given category. Optionally show the root node.',
+						'pi_author_url'		=> 'http://www.markjreeves.com/',
+						'pi_description'	=> 'Show a recursive list of subcategories for a given category. Optionally show the root node. 1.2 adds updates from Ryan Masuga, Github:mdesign',
 						'pi_usage'			=> Recursive_Subcategories::usage()
 					);
     
